@@ -83,6 +83,10 @@ Works out of the box on [Vercel](https://vercel.com). Just connect the repo and 
 - **Styling** — Tailwind CSS v4
 - **Auth** — OTP via email, HMAC session cookies
 
+## Created by
+
+[@rcrebo](https://github.com/rcrebo)
+
 ## License
 
 [AGPL-3.0](LICENSE) — free to use and self-host. If you modify and host it as a service, you must share your changes.
