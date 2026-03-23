@@ -4,6 +4,14 @@ Open source, self-hostable meeting scheduler. Let people book time with you thro
 
 Built with Next.js 16, Drizzle ORM, Neon Postgres, Resend, and Tailwind CSS v4.
 
+If you find this useful, consider giving it a star — it helps others find the project.
+
+## Why
+
+Existing open source calendar tools (Cal.com, etc.) are powerful but complex — they come with dozens of integrations, team features, and configuration options that most people don't need. Setting them up takes time.
+
+OpenCal is a simpler alternative. It does one thing well: lets people book meetings with you. The entire app is a single Next.js project with no external services beyond a database and email provider. You can clone it, configure it, and deploy it to Vercel in a couple of hours.
+
 ## Features
 
 - **Shareable booking page** — calendar view with automatic timezone detection, date/time selection, and a clean booking form
@@ -227,6 +235,16 @@ opencal/
 2. In the dashboard they can create availability (single day or recurring weekly slots)
 3. They can view all bookings, cancel them (with optional email notification), and delete unused slots
 4. The Settings tab lets them set a Zoom link that's included in all booking emails
+
+## Contributing
+
+Contributions are welcome. If you find a bug or have an idea for a feature, open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b my-feature`)
+3. Make your changes and commit (`git commit -m "Add my feature"`)
+4. Push to your fork (`git push origin my-feature`)
+5. Open a pull request
 
 ## Created by
 
