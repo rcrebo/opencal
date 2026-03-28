@@ -208,7 +208,7 @@ export async function sendBookingNotification(params: BookingEmailParams & { boo
   const { to, name, date, startTime, endTime, notes, bookerEmail, hostName } = params;
 
   await getResend().emails.send({
-    from: "Bookings <${process.env.EMAIL_FROM || "noreply@example.com"}>",
+    from: `Bookings <${process.env.EMAIL_FROM || "noreply@example.com"}>`,
     to: [to],
     subject: `New Booking — ${name} on ${date}`,
     html: `
